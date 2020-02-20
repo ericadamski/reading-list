@@ -7,6 +7,8 @@ export default async (req, res) => {
     `https://opengraph.io/api/1.1/site/${url}?app_id=${process.env.OG_KEY}`
   );
 
+  console.log(response);
+
   if (response.ok) {
     res.json(await response.json());
   }

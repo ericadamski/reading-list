@@ -1,5 +1,5 @@
 {
   "env": {
-    "OG_KEY": "@reading-list-og-key"
+    "OG_API_KEY": "@reading-list-og-key"
   }
 }
